@@ -4,7 +4,7 @@ function New(props) {
         <div>
             <h1>New Vegetable</h1>
                 <a href="/vegetables">Go back to index page</a>
-                <form action="/vegetables">
+                <form action="/vegetables" method="POST">
                     name: <input type="text" name="name" /><br />
                     season: <input type="text" name="season" /><br />
                     isInSeason: <input type="checkbox" name="isInSeason" /><br />
